@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-api
-          image: ghcr.io/leam-akuity/argo-samples:latest
+          image: ghcr.io/ismiseleam/argo-samples:latest
           ports:
             - containerPort: 8085

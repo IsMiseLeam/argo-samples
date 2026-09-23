@@ -29,5 +29,5 @@ jobs:
           push: true
           platforms: linux/arm64
           tags: |
-            ghcr.io/leam-akuity/argo-samples:${{ github.sha }}
-            ghcr.io/leam-akuity/argo-samples:latest
+            ghcr.io/ismiseleam/argo-samples:${{ github.sha }}
+            ghcr.io/ismiseleam/argo-samples:latest

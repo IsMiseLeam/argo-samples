@@ -5,6 +5,6 @@ resources:
 - ../../base
 images:
 - newTag: latest
-- name: ghcr.io/Leam-Akuity/argo-samples
+- name: ghcr.io/ismiseleam/argo-samples
   newTag: latest
-- name: ghcr.io/leam-akuity/argo-samples
+- name: ghcr.io/ismiseleam/argo-samples
