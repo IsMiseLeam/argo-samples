@@ -1,4 +1,4 @@
-name: Build hello-api image
+name: Build rest-api image
 
 on:
   push:

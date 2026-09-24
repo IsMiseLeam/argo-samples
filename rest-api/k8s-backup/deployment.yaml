@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-api
+  name: rest-api
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello-api
+      app: rest-api
   template:
     metadata:
       labels:
-        app: hello-api
+        app: rest-api
     spec:
       containers:
-        - name: hello-api
+        - name: rest-api
           image: ghcr.io/ismiseleam/argo-samples:latest
           imagePullPolicy: Always
           ports:
