@@ -27,7 +27,7 @@ jobs:
         with:
           context: ./rest-api
           push: true
-          platforms: linux/arm64
+          platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/ismiseleam/argo-samples:${{ github.sha }}
             ghcr.io/ismiseleam/argo-samples:latest
