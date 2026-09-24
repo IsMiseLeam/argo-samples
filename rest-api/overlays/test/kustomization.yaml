@@ -7,4 +7,3 @@ images:
 - newTag: latest
 - name: ghcr.io/ismiseleam/argo-samples
   newTag: latest
-- name: ghcr.io/ismiseleam/argo-samples
